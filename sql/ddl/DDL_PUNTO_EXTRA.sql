@@ -1,7 +1,7 @@
  USE FBD2020_1_5312;
  CREATE TABLE "Regiones"(
  	"idRegion" "int" IDENTITY (1, 1) NOT NULL,
- 	"decripcion" nvarchar (50) NULL,
+ 	"descripcionRegion" nvarchar (50) NULL,
  	CONSTRAINT "PK_ID_Region" PRIMARY KEY (
  		"idRegion"
  	)
